@@ -7,22 +7,22 @@ Je me sers du pluggin Visual Studio Code : "git graph" pour visualiser les branc
 
 - créer une branche (PAS D'ESPACE DANS LE NOM DE LA BRANCHE) :
 ```bash
-git branch branch_name
+git branch fonctionnality_branch_name
 ```
 
 - se déplacer dessus :
 ```bash
-git checkout branch_name
+git checkout fonctionnality_branch_name
 ```
 
 - créer une branche ET se déplacer dessus :
 ```bash
-git checkout -b setup_du_frontend
+git checkout -b fonctionnality_branch_name
 ```
 
 - répercuter la branche sur la branche distante (gitHub) :
 ```bash
-git push --set-upstream origin setup_du_frontend
+git push --set-upstream origin fonctionnality_branch_name
 ```
 
 - voir sur quelle branche on est :
@@ -30,7 +30,8 @@ git push --set-upstream origin setup_du_frontend
 git branch
 ```
 
-**QUAND UNE BRANCHE EST 100% finie :**
+**QUAND UNE BRANCHE EST finie ou en cours :**
+
 
 Dans la branche de la fonctionnalité finie :
 ```bash
@@ -38,6 +39,9 @@ git add .
 git commit -m "nom du commit"
 git push
 ```
+
+
+**QUAND UNE BRANCHE EST 100% finie :**
 
 > Se placer sur la branche "develop"
 ```bash
@@ -47,12 +51,12 @@ git checkout develop
 git pull request
 
 # Fusion de la branche fonctionnalité avec la branche develop :
-git merge nom_de_la_branche_fonctionnalité
+git merge fonctionnality_branch_name
 
 git push
 
 # Suppression de la branche fonctionnalité (je peux m'en occuper plus tard ; mais si j'ai oublié de faire quelque chose dans cette branche après l'avoir mergée, je dois en recreer une autre pour effectuer la mise à jour) :
-git branch -d nom_branche
+git branch -d fonctionnality_branch_name
 ```
 > Gérer les éventuelles érreurs
 
