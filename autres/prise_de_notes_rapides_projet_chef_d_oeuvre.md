@@ -1,9 +1,22 @@
-#
+# PRISES DE NOTES RAPIDES PROJET CHEF D'OEUVRE
+
+
+## BONNES PRATIQUES
+
+- Dans le fichier package.json :
+dependancies = necessaire au fonctionnement du projet
+dev-dependancies = dépendances pour faciliter le développement
+
+
+
+
+
+
+
+
+## DIVERS
 
 - Les forums sont assez complexes à gérer donc mieux vaut les éviter (privilégier les commentaires sur un post)
-
-
-
 
 ____
 

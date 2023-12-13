@@ -110,7 +110,7 @@ Non
 Oui
 
 - Quelles difficultés rencontre-t-il dans son emploi actuel ?
-Il n'arrive pas à trouver beoucoup de clients
+Il n'arrive pas à trouver beaucoup de clients
 
 - Quel serait le travail de ses rêves ?
 Concepteur / Developpeur d'Application
@@ -154,8 +154,9 @@ Pas totalement (il voudrait monter son entreprise)
 
 - Est-il un décisionnaire financier à son poste actuel ?
 
-Quelle est son orientation sexuelle ?
-Est-il croyant ?
+- Quelle est son orientation sexuelle ?
+
+- Est-il croyant ?
 
 - Quelle est son orientation politique ?
 

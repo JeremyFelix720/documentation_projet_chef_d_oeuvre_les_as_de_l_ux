@@ -1,0 +1,14 @@
+# APPLIQUER LES NOMRES DE SECURITE
+
+> Suivre les étapes des TP sur la sécurité.
+
+
+## Prise de notes :
+
+- Ne pas dire "mdp iccorect" ou "login incorect" MAIS "Le login ou le mot de passe est incorrect".
+
+- hasher le mdp dans la BDD
+
+- Ne pas tenir compte du pseudo dans l'authentificaton mais plutot de l'email / numéro de tél + mdp.
+
+- Idéalement, demander une confirmation par e-mail à la création d'un compte.

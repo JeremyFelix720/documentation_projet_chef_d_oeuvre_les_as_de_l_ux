@@ -1,10 +1,19 @@
 **TRANFERER LA CHECKLIST SUR LE KANBAN TRELLO !** (avec les dates)
 
+https://trello.com/b/jnOrH6ry/kanban-projet-chef-doeuvre-cda
+
 
 # CHECKLIST DE MON PROJET CHEF D'OEUVRE
 
 ## A FAIRE (ce qui est prioritaire est en gras / ce qui est fait est barré)
 
+
+Pour chacune des branche de fonctionnalité non fusionnée avec la branche develop :
+// git checkout fonctionnality_branch_name
+// git rebase develop
+// (...) - voir si dessous
+
+_____
 
 - Faire tester les wireframes en faisant des userjourney (même si le wireframe n'est pas fini)
 
@@ -93,7 +102,7 @@ ___
 
 - rédiger le cahier de charges
 
-- faire un répertoire gitHub pour le prjet chef d'oeuvre et faire un premier commit [OK]
+- faire un répertoire gitHub pour le projet chef d'oeuvre et faire un premier commit [OK]
 
 ___
 06/10
