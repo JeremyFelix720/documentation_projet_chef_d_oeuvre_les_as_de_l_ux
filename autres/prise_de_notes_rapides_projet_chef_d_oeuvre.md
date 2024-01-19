@@ -76,3 +76,16 @@ Cette rubrique a pour but de lister des duos entre des clients en situation pré
 Si la somme récoltée n’a pas été suffisante dans un délai raisonnable (ex. : 4 mois pour récolter 8000€), alors le projet est annulé (le duo est retiré de la rubrique “Solidarité”) et l’ensemble des dons en ligne sont remboursés aux différents donateurs ().
 
 Quelqu’un qui fait un don dans cette rubrique en a une bonne traçabilité car il a accès à la fois aux données du projet et du professionnel qui s’est engagé à s’en occuper à condition d’être payé.
+
+_____
+
+
+- Faire valider le MCD
+- Etapes suivantes :
+    - en déduire le modèle relationnel
+    - script de création de la BDD
+    - mettre en place la BDD (récup données de connexion)
+
+- Faire valider les use case
+
+

@@ -42,11 +42,11 @@ https://www.canva.com/design/DAFxsigzSNg/s04Lj_O0o5frTKxTpql9Bw/edit
 https://icon-sets.iconify.design/carbon/
 
 
-## Diagramme de GANTT (prévisionnel) :
+## Diagramme de GANTT (prévisionnel) du 11/12/2023 au 15/12/2023 :
 https://www.mermaidchart.com/app/projects/4785b61a-d60a-459c-be39-788f829fd4e7/diagrams/f8aa564f-4b83-4448-9f09-653a1fbd9931/version/v0.1/edit
 
 
-## Diagramme de GANTT (effectif) :
+## Diagramme de GANTT (effectif) du 11/12/2023 au 15/12/2023 :
 https://www.mermaidchart.com/app/projects/4785b61a-d60a-459c-be39-788f829fd4e7/diagrams/33f8f52b-7a1e-41a1-8803-e2ac73b58741/version/v0.1/edit
 
 
@@ -74,20 +74,11 @@ https://www.canva.com/design/DAF280KqIeg/j4JyH4Uyz3vYXfjxIVmvdQ/edit
 ## Diagramme de séquences :
 
 
+## Modèle conceptuel de données (MCD) :
+https://gitmind.com/app/docs/fw36mzm5
 
-## Diagramme de classes :
+## Modèle relationnel (schéma de base de données) :
+https://dbdiagram.io/d/Modele-relationnel-Les-As-de-lUX-657c177a56d8064ca0161ce9
 
-
-
-## Modèle conceptuel de données :
-
-ADAPTER LA SYNTAXE DE MERMAID SUR DB DIAGRAM (car ce sera possible de le transformer après automatiquement en schéma de BDD) :
-https://dbdiagram.io/d/MCD-Les-As-de-lUX-657c177a56d8064ca0161ce9
-
-
-## Schéma de base de données :
-
-
-
-
-
+## Base de données sur Néon Tech :
+https://console.neon.tech/app/projects/tiny-resonance-13609824

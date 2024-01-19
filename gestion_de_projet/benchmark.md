@@ -1,5 +1,14 @@
 # BENCHMARK
 
+**VOIR SUR MON DRIVE**
+
+
+PROCÉDURE À SUIVRE :
+1) Comparer des technologies similaires
+2) Définir les critères importants pour le projet
+3) Justifier mes choix selon les critères pré-cités
+
+
 > Utiliser Google sheets
 
 https://business.voo.be/fr/news/outils-gratuits-pour-tester-la-qualite-site-web

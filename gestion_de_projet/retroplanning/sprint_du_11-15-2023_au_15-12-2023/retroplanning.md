@@ -1,4 +1,4 @@
-# RETROPLANNING
+# RETROPLANNING POUR LE SPRINT DU 11/12/2023 AU 15/12/2023
 
 ![](img/diagramme_de_gantt_previsionnel.svg)
 ![](img/diagramme_de_gantt_effectif.svg)
