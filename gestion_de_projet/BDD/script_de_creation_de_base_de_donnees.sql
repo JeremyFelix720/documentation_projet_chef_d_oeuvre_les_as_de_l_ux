@@ -1,15 +1,14 @@
 CREATE TABLE "USER" (
   "id" integer,
   "pseudonym" string,
-  "birth_date" date,
   "email" string,
-  "phone_number" number,
+  "phone_number" string,
   "city" string,
   "postal_code" number,
   "password" string,
   "points" number,
   "grade" string,
-  "rib" number
+  "rib" string
 );
 
 CREATE TABLE "PROJECT" (
@@ -63,6 +62,11 @@ CREATE TABLE "COMMENT" (
   "submit_date" date
 );
 
+CREATE TABLE "SCENARIO_HAS_PAGE" (
+  "scenario_id" integer,
+  "page_id" integer
+);
+
 CREATE TABLE "USER_HAS_MEMO_SHEET" (
   "user_id" integer,
   "memo_sheet_id" integer
@@ -77,6 +81,10 @@ ALTER TABLE "PAGE" ADD FOREIGN KEY ("project_id") REFERENCES "PROJECT" ("id");
 ALTER TABLE "SCENARIO" ADD FOREIGN KEY ("project_id") REFERENCES "COMMENT" ("id");
 
 ALTER TABLE "PAGE" ADD FOREIGN KEY ("project_id") REFERENCES "COMMENT" ("id");
+
+ALTER TABLE "SCENARIO_HAS_PAGE" ADD FOREIGN KEY ("scenario_id") REFERENCES "SCENARIO" ("id");
+
+ALTER TABLE "SCENARIO_HAS_PAGE" ADD FOREIGN KEY ("page_id") REFERENCES "PAGE" ("id");
 
 ALTER TABLE "FAVORITE" ADD FOREIGN KEY ("user_id") REFERENCES "USER" ("id");
 

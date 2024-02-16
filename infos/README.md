@@ -5,6 +5,11 @@
 ## Support de présentation de l'oral :
 
 
+## Frontend hébergé en ligne sur Vercel :
+https://frontend-projet-chef-d-oeuvre-les-as-de-l-amps7g2zu.vercel.app/
+frontend-projet-chef-d-oeuvre-les-as-git-8307ea-jeremyfelix720.vercel.app
+frontend-projet-chef-d-oeuvre-les-as-de-l-amps7g2zu.vercel.app
+
 
 ## Partie Frontend :
 https://github.com/JeremyFelix720/frontend_projet_chef_d_oeuvre_les_as_de_l_ux
@@ -42,11 +47,11 @@ https://www.canva.com/design/DAFxsigzSNg/s04Lj_O0o5frTKxTpql9Bw/edit
 https://icon-sets.iconify.design/carbon/
 
 
-## Diagramme de GANTT (prévisionnel) du 11/12/2023 au 15/12/2023 :
+## Diagramme de GANTT (prévisionnel) :
 https://www.mermaidchart.com/app/projects/4785b61a-d60a-459c-be39-788f829fd4e7/diagrams/f8aa564f-4b83-4448-9f09-653a1fbd9931/version/v0.1/edit
 
 
-## Diagramme de GANTT (effectif) du 11/12/2023 au 15/12/2023 :
+## Diagramme de GANTT (effectif) :
 https://www.mermaidchart.com/app/projects/4785b61a-d60a-459c-be39-788f829fd4e7/diagrams/33f8f52b-7a1e-41a1-8803-e2ac73b58741/version/v0.1/edit
 
 
