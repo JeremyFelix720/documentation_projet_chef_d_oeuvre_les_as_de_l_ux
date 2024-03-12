@@ -1,18 +1,5 @@
 # SAUVEGARDES DU CODE DES DIAGRAMMES DE GANTT EN LIGNE
 
-- 1° MCD (modèle conceptuel de données) SUR MERMAID OU PAPIER-CRAYON
-
-- 2° Modèle relationnel ??? SUR DBDIAGRAM
-
-- 3° Script de création de la BDD (export to PostGreSQL)
-
-- Schema de BDD
-
-
-___
-
-
-
 ## DIAGRAMME DE GANTT PREVISIONNEL
 
 gantt
