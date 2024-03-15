@@ -9,7 +9,7 @@
 
 - J'ai perdu du temps à comprendre à quoi correspondait les différents schémas de conception de la base de données,
 
-- Je n'avais pas une idée claire des objectifs que je pouvais,
+- J'avais du mal à prioriser les tickets dans le cadre du sprint,
 
 - J'avais réussi à installer db SQLite sur le backend mais, en voulant mettre en place le base de données avec l'IasS Néon, un bug est survenu et j'ai eu beaucoup de mal à en déduire son origine,
 
