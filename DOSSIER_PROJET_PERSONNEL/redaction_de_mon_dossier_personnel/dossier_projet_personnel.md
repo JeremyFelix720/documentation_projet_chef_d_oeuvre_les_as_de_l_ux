@@ -9,12 +9,12 @@
 
 ## Sommaire
 
-1. Résumé du projet en anglais (Introduction + Conclusion)
+1. Résumé du projet en anglais [OK]
 
-2. Liste des compétences du référentiel
+2. Liste des compétences du référentiel [OK]
 
 3. Conception du projet
-  - Première idée et évolutions du projet
+  - Première idée et évolutions du projet [OK]
   - Personas et user journeys
   - Wireframes et maquettes
 
@@ -201,6 +201,28 @@ ___
 ### Personas et user journeys
 
 __Copier coller et on explique ce que c'est et ce que ça a apporté__
+
+Une fiche personna est un document qui fait partie de la stratégie marketing et qui sert à cibler plusieurs clients-types (personnages fictifs) qui sont autant d'utilisateurs potentiels du produit en cours de conception afin de coincider leurs exigences (explicites ou implicites) avec les solutions qui lui seront proposées par le produit (par exemple : une application ou un site web).
+
+
+Les principaux interets d'élaborer des fiches persona sont les suivants :
+
+- Améliorer le taux de conversion
+
+- Optimiser l'expérience utilisateur
+
+- Cibler le contenu du site et des publicités
+
+- Etc.
+
+
+Les 3 fiches personas suivantes m'ont permises de mieux cerner les besoins concrets des futurs utilisateurs de mon application afin de me mettre à leur place lors des différentes phases de conception du produit en gardant notamment à l'esprit leur objectifs, leur problèmatiques et leurs traits de personnalité (je n'ai gardé que les critères les plus pertinents en lien avec l'utilisation du produit) :
+
+![Fiche personna 1](../../gestion_de_projet/fiches_persona/fiche_persona_1.jpg "Fiche personna 1")
+
+![Fiche personna 2](../../gestion_de_projet/fiches_persona/fiche_persona_2.jpg "Fiche personna 2")
+
+![Fiche personna 3](../../gestion_de_projet/fiches_persona/fiche_persona_3.jpg "Fiche personna 3")
 
 
 ___
