@@ -15,8 +15,11 @@
 
 3. Conception du projet
   - Première idée et évolutions du projet [OK]
-  - Personas et user journeys
-  - Wireframes et maquettes
+  - Personas [OK]
+  - User journeys
+  - Charte graphique
+  - Wireframe [OK]
+  - Prototype [OK]
 
 4. Spécifications fonctionnelles
   - Plan de site
@@ -198,14 +201,12 @@ De plus, l'application "Les As de l'UX" se démarque des autres produits sur le 
 
 ___
 
-### Personas et user journeys
+### Personas
 
-__Copier coller et on explique ce que c'est et ce que ça a apporté__
-
-Une fiche personna est un document qui fait partie de la stratégie marketing et qui sert à cibler plusieurs clients-types (personnages fictifs) qui sont autant d'utilisateurs potentiels du produit en cours de conception afin de coincider leurs exigences (explicites ou implicites) avec les solutions qui lui seront proposées par le produit (par exemple : une application ou un site web).
+Une fiche personna est un document qui fait partie de la stratégie marketing et qui sert à cibler plusieurs clients-types (personnages fictifs) qui sont autant d'utilisateurs potentiels du produit en cours de conception (par exemple : une application ou un site web) afin de coincider leurs exigences (explicites ou implicites) et ainsi d'orienter la prise de décision concernant les solutions qui lui seront proposées.
 
 
-Les principaux interets d'élaborer des fiches persona sont les suivants :
+Les principaux intérêts d'élaborer des fiches persona sont les suivants :
 
 - Améliorer le taux de conversion
 
@@ -227,9 +228,126 @@ Les 3 fiches personas suivantes m'ont permises de mieux cerner les besoins concr
 
 ___
 
-### Wireframes et maquettes
+### Charte graphique
 
-__Exemples et modifications apportées + maquettes + choix des couleurs__
+__Utilité de la charte__
+
+__expliquer pourquoi avoir choisi ces couleurs / polices / logo__
+
+Voici le logotype de mon application chef-d'oeuvre :
+
+![Logotype 'Les As de l'UX'](../../gestion_de_projet/charte_graphique/logotype/logotype_les_as_de_l_ux_black.png "Logotype 'Les As de l'UX'")
+
+La forme générale (s'insérant dans un carré) est un blason qui permet de délimiter joliment le logo et rappelle aussi l'harmonie et l'équilibre que l'UX Design rend possible s'il est mis en pratique dans les projets web.
+
+Au centre, le diamant représente les critères de qualité permettant d'améliorer l'expérience des utilisateurs.
+
+___
+
+Voici la palette de couleurs que j'ai intégré à mon prototype ainsi qu'à la partie frontend de mon projet :
+
+![Palette et contrastes colorimétriques](../../gestion_de_projet/charte_graphique/couleurs/palette_et_contrastes_colorimetriques.jpg "Palette et contrastes colorimétriques")
+
+Pour une question d'accessibilité vis-à-vis des personnes malvoyantes, je n'ai associé que les couleurs présentant un contraste colorimétrique suffisant.
+
+Pour limiter le nombre de choix de combinaison possible, j'ai repris les codes couleur d'un mouvement artistique : l'art déco.
+
+Ma couleur principale est la teinte "bleu paon" qui se rapporte au monde proffessionnel et au calme. Et la teinte secondaire est le "marron chocolat" qui permet de mettre en avant les titres principaux de l'application.
+
+J'ai rajouté une déclinaison claire pour chaque couleur, c'est afin de pouvoir gérer le mode sombre dans second temps (tout en gardant un constraste suffisant avec le noir).
+
+Pour reposer les yeux des utilisateurs, je n'ai pas utilisé de blanc et de noir à 100% mais des teintes plus douces, à savoir le "blanc fumée" et le "gris anthracite".
+
+Chacune des autres couleurs a aussi un rôle indicatif et fonctionnel (que j'utilise pour les boutons et les toasts) :
+
+- Information : "Bleu paon" / "Turquoise foncé"
+
+- Succès : "Vert bouteille" / "Vert émeraude"
+
+- Avertissement : "Marron chocolat" / "Jaune ambre"
+
+- Danger : "Rouge vif" / "Rose corail"
+
+- Invalide : "Gris mat" / "Gris argent"
+
+___
+
+Voici les deux polices d'écritures complémentaires que j'ai intégré à mon prototype ainsi qu'à la partie frontend de mon projet :
+
+![Polices d'écriture 'Metropolis' et 'IBM Plex Serif'](../../gestion_de_projet/charte_graphique/polices/metropolis_and_ibm_plex_serif_fonts.png "Polices d'écriture 'Metropolis' et 'IBM Plex Serif'")
+
+La police de carractères "Métropolis" est utilisée pour les différents niveaux de titres et pour le texte des boutons tandis que la police "IBM Plex Serif" est utilisée pour le texte courant (car les carractères avec empatement rendent généralement les paragraphes plus lisibles).
+
+
+### Wireframe
+
+Un wireframe est une représentation simplifiée de l'interface d'un produit numérique (sans application de la charte graphique) dans le but de valider le contenu des pages, la navigation entres celles-ci ainsi que de l'expérience utilisateur.
+
+Voici le wireframe de la première version de mon application (réalisé sur Moqups) :
+
+![Wireframe partie 1](../../gestion_de_projet/wireframe/wireframe_pages_part_1.PNG "Wireframe partie 1")
+
+Wireframe partie 1
+___
+
+![Wireframe partie 2](../../gestion_de_projet/wireframe/wireframe_pages_part_2.PNG "Wireframe partie 2")
+
+Wireframe partie 2
+___
+![Wireframe partie 3](../../gestion_de_projet/wireframe/wireframe_pages_part_3.PNG "Wireframe partie 3")
+
+Wireframe partie 3
+___
+
+
+L'inconvénient d'avoir utilisé Moqups en version gratuite est qu'il y a 2 une limite de 400 éléments et seulement 2 projets maximum. Ce qui m'a fait perdre du temps pour réfléchir à quels éléments étaient les plus important à conserver ou non (puisque je ne pouvais pas tous les intégrer).
+
+
+
+### User journeys
+
+Un user journey est un shéma qui permet de visualiser les remarques et suggestion d'amélioration des utilisateurs suite à leur "navigation" sur chaque page du wireframe (et ainsi envisager des changements pertinents le tôt possible dans la phase de conception afin d'économiser du temps et de l'argent).
+
+Voici les 2 users journey que j'ai réalisé avec la collaboration d'Anthony YOUSSEF et d'Elodie BOTTON :
+
+![User journey n°1](../../gestion_de_projet/user_journey/img/user_journey_1_avec_anthony_youssef.svg "User journey n°1")
+
+![User journey n°2](../../gestion_de_projet/user_journey/img/user_journey_2_avec_elodie_botton.svg "User journey n°2")
+
+
+
+
+###  Prototype
+
+Le prototype est une maquette dynamique qui permet de tester le fonctionnement d'une application et son utilisabilité du point de vue des utilisateur de façon plus réaliste qu'un wireframe. 
+
+Voici quelques captures d'écran du prototype de mon application (réalisé sur Figma) :
+
+![Prototype partie 1](../../gestion_de_projet/prototype/prototype_pages_part_1.png "Prototype partie 1")
+
+![Prototype partie 2](../../gestion_de_projet/prototype/prototype_pages_part_2.png "Prototype partie 2")
+
+![Prototype partie 3](../../gestion_de_projet/prototype/prototype_pages_part_3.png "Prototype partie 3")
+
+
+
+Les principales différences entre le wireframe et le prototype sont que :
+
+- La charte graphique a été appliquée sur tous les éléments d'interface
+
+- Il y a une page d'accueil qui explique les intérêts d'utiliser l'application pour les différents publics concernés 
+
+- Il y a une page de description plus détaillée pour chaque projet publié
+
+- Les pages et les fonctionnalités liées aux QCM sur les lois de l'UX ainsi que la boutique ont disparus pour privilégier les éléments liées à l'analyse UX pour de vrais projets
+
+- La page d'analyse UX est désormais divisé en 4 catégories (navigation, interface, accessibilité et performance) au lieu d'une checklist très guidée autour des lois de l'UX (cela permet de moins brider les tests utilisateur pour augmenter le nombre d'anomalies remontées)
+
+- Ce ne sont plus les utilisateurs qui votent pour leurs commentaires préférés (avec un système de likes) mais uniquement le client (qui procède à un classement à la fin d'une analyse globale) ; cela permet d'éviter le risque de fraude de personnes qui se créeraient automatiquement plusieurs compte en attribuant des likes à leurs propres commentaires (ce programme s'appelle le "botting").
+
+- La partie sur le paiement a été simplifiée (il n'y a que le RIB qui a été conservé)
+
+
 
 ___
 
@@ -380,6 +498,7 @@ ___
 
 __Pareil : Du code, des commits, des graphs de branches, des PR, des issues, des bugs, des features, des tests, des déploiements, des rollback, des merges, des conflits, des reviews, des refactors__
 
+__+retroplaning__
 
 ___
 
