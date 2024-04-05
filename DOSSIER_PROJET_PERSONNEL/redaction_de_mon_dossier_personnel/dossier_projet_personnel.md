@@ -31,7 +31,7 @@
   - Modèle Conceptuel de Données [OK]
 
 6. Spécifications techniques
-  - Les technologies
+  - Les technologies [OK]
   - L'architecture
 
 7. Réalisation du projet
@@ -184,7 +184,7 @@ ___
 __Comment l'idée du projet a-t-elle été trifouillée jusqu'à devenir le projet final ? Expliquez le plus précisément tout ce qui doit être fait !__
 
 
-A la base, je voulais faire un jeu de carte permettant de découvrir les lois de l'UX Design et, ensuite, j'ai voulu transformer ce projet pour en faire une application.
+A la base, je voulais faire un jeu de carte permettant de découvrir les lois de l'UX Design et, lorsque j'ai appri qu'il fallait concevoir et dévellopper un projet chef-d'oeuvre, j'ai voulu transformer ce concept initial pour en faire une application.
 
 
 Voici mon cheminement de réfléxion et les raisons pour lesquelles je n'ai pas retenu les options suivantes :
