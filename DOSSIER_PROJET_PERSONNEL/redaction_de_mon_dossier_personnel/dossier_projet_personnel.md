@@ -636,6 +636,63 @@ ___
 
 __React, Node, Java, PostgreSQL, C#, C++ surtout !!! etc... avec quelques logos svp ou une liste__
 
+Je vais à présent vous présenter la justification de mes choix de technologies appliquées dans le cadre de ce projet (selon des critères les plus rationnels possibles).
+
+
+####  Technologies du Frontend
+
+- J'ai choisi framework JavaScript React pour construire des interfaces utilisateur dynamiques et interactives car :
+  - Il est relativement simple et à prendre en main grâce à son architecture à base de composants qui fonctionnent tous de la même façon (avec des états, des comportements et un affichage).
+  - Il utilise l'extension de syntaxe JSX qui permet d'écrire du code HTML directement dans du code JavaScript ; cela rend la création d'interfaces utilisateur plus intuitive et facilite le travail avec les composants.
+  - Grâce à son Virtual DOM, il offre des performances élevées, même pour les applications complexes.
+  - De plus, il est soutenu par une vaste communauté de développeurs et dispose d'un écosystème riche en outils, bibliothèques et extensions.
+
+- J'ai choisi Vite pour construire rapidement mon application côté frontend car :
+  - Cela offre un environnement de developpement prêt à l'emploi et un temps de démarrage ultra-rapide 
+  - Les modifications apportées au code sont reflétées instantanément dans le navigateur, sans avoir besoin de recharger la page.
+
+- J'ai choisi Vercel pour déploiyer la partie frontend de mon application car :
+  - Il offre un déploiement rapide et sans effort pour les applications web.
+  - Il prend en charge une large gamme de technologies web (par exemples : React, Vue.js, Angular, etc.).
+  - Il permet de déployer automatiquement ses projets à partir du référentiel Git dès que des changements sont effectué.
+  - Il prend en charge le déploiement basé sur les branches.
+
+
+####  Technologies du Backend
+
+- J'ai choisi le framework Express pour créer rapidement une API robuste et évolutive car :
+  - C'est un framework minimaliste qui offre une grande flexibilité (il permet aux développeurs de choisir les bibliothèques et les outils qui correspondent le mieux à leurs besoins spécifiques)
+  - Il peut gérer efficacement de nombreuses connexions simultanées avec une latence minimale.
+
+- J'ai choisi l'ORM Sequelize pour servir d'intermédiaire entre l'API et la base de données car :
+  - Il offre une abstraction de la base de données en permettant d'utiliser des objets JavaScript et des requêtes plutôt que des requêtes SQL brutes.
+  - Il facilite la définition et la gestion des relations entre les tables de la base de données.
+
+- J'ai choisi la base de donnée SQLite car :
+  - Il est simple à utiliser et ne nécessite pas de configuration de serveur complexe (il est directement intégré dans la partie backend sous la forme d'un fichier).
+  - Il permet notamment la validation des contraintes liées aux clés étrangères.
+  - SQLite offre des fonctionnalités de sécurité intégrées telles que le cryptage des bases de données, qui peuvent être activées pour protéger les données stockées (même si, sur le long terme et lorsqu'il y aura de vraies données des utilisateurs, il vaudrait mieux migrer sur une base de données de type "client-serveur" pour renforcer la sécurité). 
+
+- J'ai choisi Docker pour déployer et gérer l'application car :
+  - Il utilise des conteneurs à la fois légers (mais qui comporte toutes les dépendances logicielles nécessaires pour exécuter l'application) et portables (c'est-à-dire qui peuvent être exécutés sur n'importe quel environnement prenant en charge Docker).
+  - Il utilise une technologie de virtualisation légère qui nécessite moins de ressources système par rapport aux machines virtuelles traditionnelles.
+  - Il facilite l'évolutivité des applications en permettant le déploiement et la gestion de multiples conteneurs de manière automatisée.
+
+- J'ai choisi NodeJS pour exécuter du code JavaScript côté serveur car :
+  - Il peut facilement s'adapter à la croissance de l'application.
+  - Il peut gérer efficacement de nombreuses connexions simultanées sans consommer beaucoup de ressources système.
+  - Son modèle asynchrone et son écosystème de modules en font une plateforme polyvalente et puissante pour le développement d'applications côté serveur.
+
+
+####  Technologies communes au frontend et au backend
+
+- J'ai choisi l'IDE Visual Studio Code car : 
+  - Il prend en charge une grande variété de langages de programmation, de frameworks et d'outils.
+  - Il est léger et démarre rapidement (contrairement à certains autres IDE plus lourds)
+  - Il dispose d'un large choix d'extensions très riche qui permet d'étendre les fonctionnalités de l'IDE en fonction de ses besoins spécifiques.
+  - Il propose des fonctionnalités de débogage intégrées pour de nombreux langages de programmation.
+  - Il est intégré nativement avec l'outil de versionning Git (ce qui facilite le suivi des modifications, la gestion des branches et des conflits, et la collaboration sur des projets basés sur Git directement depuis l'IDE).
+
 ___
 
 ### l’architecture
