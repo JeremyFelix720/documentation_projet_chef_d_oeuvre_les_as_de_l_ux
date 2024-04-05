@@ -16,14 +16,15 @@
 3. Conception du projet
   - Première idée et évolutions du projet [OK]
   - Personas [OK]
-  - User journeys
-  - Charte graphique
+  - User journeys [OK]
+  - Charte graphique [OK]
   - Wireframe [OK]
   - Prototype [OK]
 
 4. Spécifications fonctionnelles
+  - Fonctionnement général de l'application [OK]
   - Plan de site
-  - MCD
+  - Modèle Conceptuel de Données [OK]
   - Gestion de projet (Diagramme de Gantt et ou Kanban)
 
 5. Spécifications techniques
@@ -221,11 +222,18 @@ Les 3 fiches personas suivantes m'ont permises de mieux cerner les besoins concr
 
 ![Fiche personna 1](../../gestion_de_projet/fiches_persona/fiche_persona_1.jpg "Fiche personna 1")
 
+Fiche personna 1
+___
+
+
 ![Fiche personna 2](../../gestion_de_projet/fiches_persona/fiche_persona_2.jpg "Fiche personna 2")
+
+Fiche personna 2
+___
 
 ![Fiche personna 3](../../gestion_de_projet/fiches_persona/fiche_persona_3.jpg "Fiche personna 3")
 
-
+Fiche personna 3
 ___
 
 ### Charte graphique
@@ -285,18 +293,18 @@ Un wireframe est une représentation simplifiée de l'interface d'un produit num
 
 Voici le wireframe de la première version de mon application (réalisé sur Moqups) :
 
-![Wireframe partie 1](../../gestion_de_projet/wireframe/wireframe_pages_part_1.PNG "Wireframe partie 1")
+![Wireframe (partie 1)](../../gestion_de_projet/wireframe/wireframe_pages_part_1.PNG "Wireframe (partie 1)")
 
-Wireframe partie 1
+Wireframe (partie 1)
 ___
 
-![Wireframe partie 2](../../gestion_de_projet/wireframe/wireframe_pages_part_2.PNG "Wireframe partie 2")
+![Wireframe (partie 2)](../../gestion_de_projet/wireframe/wireframe_pages_part_2.PNG "Wireframe (partie 2)")
 
-Wireframe partie 2
+Wireframe (partie 2)
 ___
-![Wireframe partie 3](../../gestion_de_projet/wireframe/wireframe_pages_part_3.PNG "Wireframe partie 3")
+![Wireframe (partie 3)](../../gestion_de_projet/wireframe/wireframe_pages_part_3.PNG "Wireframe (partie 3)")
 
-Wireframe partie 3
+Wireframe (partie 3)
 ___
 
 
@@ -312,9 +320,13 @@ Voici les 2 users journey que j'ai réalisé avec la collaboration d'Anthony YOU
 
 ![User journey n°1](../../gestion_de_projet/user_journey/img/user_journey_1_avec_anthony_youssef.svg "User journey n°1")
 
+User journey n°1
+___
+
 ![User journey n°2](../../gestion_de_projet/user_journey/img/user_journey_2_avec_elodie_botton.svg "User journey n°2")
 
-
+User journey n°2
+___
 
 
 ###  Prototype
@@ -356,27 +368,35 @@ ___
 
 ### Fonctionnement général de l'application
 
-**Schéma illustrant le fonctionnement**
+Voici un schéma décrivant les principales étapes qui permettent à l'application de fonctionner correctement :
+
+![Fonctionnement de l'application](../../gestion_de_projet/cahier_des_charges/fonctionnement_application_les_as_de_l_ux.PNG "Fonctionnement de l'application")
+
+Fonctionnement de l'application
+___
+
 
 Voici les différentes étapes qui permettent à l'application de fonctionner normalement :
 
-1. D’abord, le dépositaire d’un projet (client) renseigne quelques indications sur le site à refondre ou le prototype (pour donner envie aux autres de s’impliquer et faciliter les tests utilisateurs qui suivront)
+1. D’abord, le dépositaire d’un projet (client) renseigne quelques indications sur le site à refondre ou le prototype (pour donner envie aux autres de s’impliquer et faciliter les tests utilisateurs qui suivront). Puis, le client paye une certaine somme d’argent pour rendre son projet accessible aux utilisateurs de l’application (ce montant déterminera le nombre maximal d’analyses UX que les utilisateurs pourront publier et qui, une fois atteint, cela mettra fin à l’analyse UX collective) ; l’argent est versé sur un compte dédié “Les As de l’UX” pour qu’il soit possible de toucher une commission dessus et de reverser l’argent à certains utilisateurs (comme pour un site de mise en relation classique)
 
-2. Puis, le client paye une certaine somme d’argent pour rendre son projet accessible aux utilisateurs de l’application (ce montant déterminera le nombre maximal d’analyses UX que les utilisateurs pourront publier et qui, une fois atteint, mettra fin à l’analyse UX collective) ; l’argent est versé sur un compte dédié “Les As de l’UX” pour qu’il soit possible de toucher une commission dessus et de reverser l’argent à certains utilisateurs (comme pour un site de mise en relation classique)
+2. Ensuite, les autres utilisateurs peuvent choisir un projet et effectuer une analyse UX en classant les anomalies et les axes d’améliorations repérés en 4 catégories (navigation, accessibilité, interface graphique et performance) afin de gagner des points (avec lesquels on peut monter en grade et débloquer des fiches mémos pédagogiques sur les lois de l’UX)
 
-3. Ensuite, les autres utilisateurs peuvent choisir un projet et effectuer une analyse UX en classant les anomalies et les axes d’améliorations repérés en 4 catégories (navigation, accessibilité, interface graphique et performance) afin de gagner des points (avec lesquels on peut monter en grade pour débloquer des fiches mémos pédagogiques sur les lois de l’UX et augmenter le nombre maximale d’analyse UX journalière que l’on peut rédiger)
+3. Une fois le nombre d'analyses UX maximales atteint, le client est informé par un email puis, sur l’application, il parcourt la liste des critiques de son site et sélectionne les 5 qui lui semblent les plus pertinentes selon lui pour l’aider dans sa refonte de son site ou de son application.
 
-4. Une fois le nombre d'analyses UX maximales atteint, le client est informé par un email puis, sur l’application, il parcourt la liste des critiques de son site et sélectionne les 5 qui lui semblent les plus pertinentes selon lui pour l’aider dans sa refonte de son site ou de son application. En effectuant ce classement, le client peut télécharger le PDF de l'analyse UX globale pour s’en servir pour son projet et les 5 commentateurs correspondants reçoivent une partie du budget initialement versé par le client et réparti comme suit :
-- 1er : 27%,
-- 2ème : 22%,
-- 3ème : 17%,
-- 4ème : 12%,
-- 5ème : 7%,
+4. En effectuant ce classement, le client peut télécharger le PDF de l'analyse UX globale pour s’en servir concrêtement pour son projet.
+
+5. Les 5 commentateurs correspondants reçoivent une partie du budget initialement versé par le client et réparti comme suit :
+- 1er : 27%
+- 2ème : 22%
+- 3ème : 17%
+- 4ème : 12%
+- 5ème : 7%
 - Marge dégagée pour “Les As de l’UX” : 15%
 
 ___
 
-Il reste toujours possible de collecter des points tout au long de l'utilisation de l'application en effectuant une des actions suivantes :
+Il est possible de collecter des points tout au long de l'utilisation de l'application en effectuant une des actions suivantes :
 
 - Créer un nouveau projet de refonte
 
@@ -393,43 +413,47 @@ Avec les points d'UX, on peut :
 
 - Débloquer des cartes "Lois de l'UX" (de façon automatique lorsque l'on atteint le niveau supérieur)
 
-- ‌Augmenter son nombre d’analyses journalières maximales possibles (de façon automatique lorsque l'on atteint le grade supérieur)
 
 
 Chaque semaine, tous les utilisateurs perdent un certain nombre de points d'XP (pour rétrograder au bout d'un certain temps s'ils ne s'entraînent pas régulièrement).
 
 ___
 
-> Décrire l'intéret des pages principales ?
+Voici l'intérêt des pages principales de mon application :
+
+- La page d'accueil sert à présenter les avantages et les services rendus par l'application pour les chargés de refonte de site et les autres utilisateurs
+
+- Les pages "Lexique" et "Lois de l'UX" servent à guider la rédaction des commentaires en fournissant respectivement un glossaire de l'UX Design (pour parler avec un vocabulaire proffessionnel) et une liste de principes psychologiques sur l'UX Design (permettant d'améliorer l'expérience utilisateur s'ils sont appliqués) 
+
+- La page "projets" sert à lister les projets de création ou de refonte de sites publiés et donc analysables par tous les utilisateurs de l'application
 
 
 
+### Site map
+
+Voici le plan de site qui permet de visualiser la navigation au sein des pages de mon application :
+
+![Plan de site](../../gestion_de_projet/plan_du_site_web/plan_du_site_web.pdf "Plan de site")
+
+Plan de site
+___
+
+### Modèle Conceptuel de Données
+
+Un Modèle Conceptuel de Données (MCD) est un schéma qui permet de comprendre simplement comment les différents tables sont liées entre elles.
+
+Voici le MCD de mon projet (que j'ai réalisé sur le logiciel GitMind) :
+
+![Modèle Conceptuel de Données](../../gestion_de_projet/BDD/img/modele_conceptuel_de_donnees.PNG "Modèle Conceptuel de Données")
+
+Modèle Conceptuel de Données
 ___
 
 
+J'ai intégré des verbes d'action entre les tables qui seront amener à intéragir ensemble dans la future base de données. 
 
 
-
-### site map
-
-__On colle l'image si vous l'avez sinon tant pis...__
-
-
-
-___
-
-### MCD
-
-__On colle le MCD mais surtout on explique les relations, les tables, les champs...__
-
-
-
-
-
-
-
-
-Voici les différentes liaisons fonctionnelles entre les tables de ma base de données qui m’ont permis de réaliser le Modèle Conceptuel de Données (avec les cardinalités associées dans les 2 sens) :
+Voici les différentes liaisons fonctionnelles entre les tables de ma base de données qui m’ont permis de réaliser le Modèle Conceptuel de Données (avec le nombre d'occurences possibles, c'est-à-dire les cardinalités, entre les 2 tables associées et dans les 2 sens) :
 
 - Un utilisateur peut publier 0 ou plusieurs projet(s).
 - Un projet peut être publié par 1 et 1 seul utilisateur.
@@ -458,6 +482,48 @@ Voici les différentes liaisons fonctionnelles entre les tables de ma base de do
 - Un utilisateur peut avoir 0 ou plusieurs fiche(s) mémo.
 - Une fiche mémo peut appartenir à 0 ou à plusieurs utilisateur(s).
 
+
+### Modèle relationnel
+
+Un modèle relationnel est plus détaillé que le MCD ; c'est un schéma qui permet de non seulement de voir les liasons qui existent entre les tables mais aussi entre les champs des tables différentes entre elles (le type des champs est également visible) Son intérêt principal est de pouvoir s'en servir pour construire la base de donnée.
+
+J'ai réalisé le modèle relationnel suivant sur Dbdiagram.io (qui s'occupe de convertir automatiquement le code produit sur la plateforme au langage SQL afin d'être compréhensible par une base de données) : 
+
+![Modèle relationnel](../../gestion_de_projet/BDD/img/modele_relationnel.PNG "Modèle relationnel")
+
+Lorsque il y a une relation "many to many" entre 2 tables (c'est-à-dire, quand un enregistrement d'une table peut être liées à plusieurs engistrements de l'autre table et réciproquement), il faut rajouter une table de liaison dont les champs sont les clés étrangères pour les 2 tables (c'est-à-dire leur clé primaire respective permettant d'identifier un seul enregistrement spécifique).
+
+
+### Use cases
+
+Un use case est un schéma qui représente un ensemble d’actions du produit apportant de la valeur par leurs interactions avec les utilisateurs.
+
+
+Voici les différents uses cases de mon projet qui correspondent aux scénarios principaux se produisant au sein de l'application : 
+
+![Un client publie un projet](../../gestion_de_projet/use_cases/un_client_publie_un_projet.png "Un client publie un projet")
+
+Un client publie un projet
+___
+
+![Un utilisateur publie un commentaire](../../gestion_de_projet/use_cases/un_utilisateur_publie_un_commentaire.png "Un utilisateur publie un commentaire")
+
+Un utilisateur publie un commentaire
+___
+
+![Un client télécharge l'analyse UX globale](../../gestion_de_projet/use_cases/un_client_telecharge_l_analyse_ux_globale.png "Un client télécharge l'analyse UX globale")
+
+Un client télécharge l'analyse UX globale
+___
+
+![Un utilisateur récupère ses gains](../../gestion_de_projet/use_cases/un_utilisateur_recupere_ses_gains.png "Un utilisateur récupère ses gains")
+
+Un utilisateur récupère ses gains
+___
+
+Le mot "Inhérit" signifie que l'étape est obligatoire ; cette étape indique aussi le parcours suivi par l'utilisateur du début à la fin du scénario (cette étape peut être complété par plusieurs autres étapes obligatoires ou non).
+
+Le mot "Include" signifie que l'étape est obligatoire pour assurer la validité du scénario tandis que le mot "Extend" signifie que c'est une étape facultative (mais fortement recommendée).
 
 ___
 
