@@ -21,26 +21,26 @@
   - Wireframe [OK]
   - Prototype [OK]
 
-4. Spécifications fonctionnelles
+4. Gestion de projet
+  - Tableau KANBAN [OK]
+  - Rétroplanning [OK]
+
+5. Spécifications fonctionnelles
   - Fonctionnement général de l'application [OK]
   - Plan de site
   - Modèle Conceptuel de Données [OK]
-  - Gestion de projet (Diagramme de Gantt et ou Kanban)
 
-5. Spécifications techniques
+6. Spécifications techniques
   - Les technologies
   - L'architecture
 
-6. Réalisation du projet
+7. Réalisation du projet
   - Développement
   - Améliorations et difficultés rencontrées dans le travail d'équipe
   - Etapes / Avancées principales du projet
 
 
 ## Résumé du projet en anglais (Introduction + Conclusion)
-
-__(Traduction automatique de DeepL ici)__
-
 
 As part of the "Concepteur / Développeur d'Applications DevOps" course offered by the SIMPLON training organization, I took charge of all the design and production phases of my masterpiece project entitled "Les As de l'UX".
 
@@ -238,11 +238,13 @@ ___
 
 ### Charte graphique
 
-__Utilité de la charte__
+Une charte graphique est un document qui définit et décrit l’ensemble des éléments visuels utilisés pour représenter une entreprise, une marque ou un projet. Elle établit les règles et les normes graphiques à suivre afin d’assurer une cohérence visuelle sur tous les supports de communication, tels que les sites web, les réseaux sociaux, les brochures, les affiches, etc.
 
-__expliquer pourquoi avoir choisi ces couleurs / polices / logo__
+La charte graphique inclut généralement des éléments tels que les couleurs principales et secondaires, les typographies, les logos, les icônes, les illustrations, les schémas, ainsi que les règles de mise en page et d’utilisation de ces éléments. Elle vise à garantir une identité visuelle forte et reconnaissable, facilitant ainsi la mémorisation de la marque par le public cible.
 
-Voici le logotype de mon application chef-d'oeuvre :
+___
+
+Tout d'abord, voici le logotype de mon application chef-d'oeuvre :
 
 ![Logotype 'Les As de l'UX'](../../gestion_de_projet/charte_graphique/logotype/logotype_les_as_de_l_ux_black.png "Logotype 'Les As de l'UX'")
 
@@ -252,7 +254,7 @@ Au centre, le diamant représente les critères de qualité permettant d'amélio
 
 ___
 
-Voici la palette de couleurs que j'ai intégré à mon prototype ainsi qu'à la partie frontend de mon projet :
+Voici ensuite la palette de couleurs que j'ai intégré à mon prototype ainsi qu'à la partie frontend de mon projet :
 
 ![Palette et contrastes colorimétriques](../../gestion_de_projet/charte_graphique/couleurs/palette_et_contrastes_colorimetriques.jpg "Palette et contrastes colorimétriques")
 
@@ -280,7 +282,7 @@ Chacune des autres couleurs a aussi un rôle indicatif et fonctionnel (que j'uti
 
 ___
 
-Voici les deux polices d'écritures complémentaires que j'ai intégré à mon prototype ainsi qu'à la partie frontend de mon projet :
+Enfin, voici les deux polices d'écritures complémentaires que j'ai intégré à mon prototype ainsi qu'à la partie frontend de mon projet :
 
 ![Polices d'écriture 'Metropolis' et 'IBM Plex Serif'](../../gestion_de_projet/charte_graphique/polices/metropolis_and_ibm_plex_serif_fonts.png "Polices d'écriture 'Metropolis' et 'IBM Plex Serif'")
 
@@ -359,6 +361,107 @@ Les principales différences entre le wireframe et le prototype sont que :
 
 - La partie sur le paiement a été simplifiée (il n'y a que le RIB qui a été conservé)
 
+
+## Gestion de projet
+
+### Tableau KANBAN
+
+Pour organiser mon travail et la gestion des priorité (en se fixant des délais à tenir), j'ai utilisé la fonctionnalité du tableau KANBAN proposé par l'outil de gestion de projet Trello :
+
+![Tableau KANBAN du 05-04-2024](../../gestion_de_projet/kanban/kanban_05-04-2024.PNG "Tableau KANBAN du 05-04-2024")
+
+Tableau KANBAN du 05-04-2024
+
+___
+
+
+J'ai réparti les tickets (c'est-à-dire les tâches à réaliser) en les rangeant dans plusieurs colonnes :
+- A FAIRE (gestion de projet)
+- EN COURS
+- A FAIRE VALIDER
+- TERMINE
+
+J'ai également classé mes tickets en plusieurs catégories (appelées "étiquettes") :
+- Gestion de projet
+- Frontend
+- Backend
+- DevOps / Tests
+- Base de données
+- Hébergement / déploiement
+
+### Rétroplanning
+
+Tout au long du déroulement du projet, à la fin de chaque sprint (c'est-à-dire la charge de travail répartie sur une période de temps définie), j'ai pris l'habitude de rédiger un rétroplaning pour faire le bilan sur l'accomplissement des tâches plannifiées ainsi que sur les axes d'amélioration de la gestion de projet à prévoir lors des prochains sprints.  
+
+
+#### Sprint du 11-03-2024 au 15-03-2024
+
+![Diagramme de GANTT prévisionnel du sprint du 11-03-2024 au 15-03-2024](../../gestion_de_projet/retroplanning/4_sprint_du_11-03-2024_au_15-03-2024/img/diagramme_de_gantt_previsionnel.svg "Diagramme de GANTT prévisionnel du sprint du 11-03-2024 au 15-03-2024")
+
+Diagramme de GANTT prévisionnel du sprint du 11-03-2024 au 15-03-2024
+___
+
+![Diagramme de GANTT effectif du sprint du 11-03-2024 au 15-03-2024](../../gestion_de_projet/retroplanning/4_sprint_du_11-03-2024_au_15-03-2024/img/diagramme_de_gantt_effectif.svg "Diagramme de GANTT effectif du sprint du 11-03-2024 au 15-03-2024")
+
+Diagramme de GANTT effectif du sprint du 11-03-2024 au 15-03-2024
+____
+
+
+##### Compte rendu des problèmes réglés depuis le dernier sprint
+
+- J'ai fait des commits beaucoup plus régulièrement, ce qui m'a permis de moins avoir à réfléchir pour leur nommage et aussi d'avoir un historique plus détaillé des différentes versions de mon projet
+- J'ai pris l'habitude de créer une branche par ticket, ce qui m'a permis de me fixer des petits objectifs clairement identifiés
+- Je me suis concentré sur la partie frontend de mon projet et cela m'a beaucoup plu car je pouvais vérifier visuelement le résultat dans le navigateur
+
+
+##### Compte rendu des problèmes rencontrés
+
+- Mon diagramme de GANTT prévisionnel était trop ambitieux
+- J'étais très fatigué le vendredi et j'avais donc du mal à me concentrer sur mon travail
+- J'ai fait du CSS en même temps que l'implémentation des composants de Shadcn (même si j'avais prévu de le faire dans un second temps)
+- J'ai eu du mal à prendre du recul sur mon travail lorsque je rencontrais une difficulté (et mon stress se faisait ressentir autour de moi)
+
+
+##### Déductions pour la suite du projet
+
+- Programmer moins de choses pour ne pas être frustré
+- Créer des tickets plus petits si besoin (pour avoir l'impression de progresser chaque jour)
+- Essayer de se limiter aux tickets définis pour le sprint en cours (et de ne pas trop en rajouter en cours de route)
+- Consacrer le vendredi après-midi à la rédaction du retroplanning et au diagramme de GANTT de la semaine suivante
+
+
+
+#### Sprint du 19-03-2024 au 22-03-2024
+
+![Diagramme de GANTT prévisionnel du sprint du 19-03-2024 au 22-03-2024](../../gestion_de_projet/retroplanning/5_sprint_du_19-03-2024_au_22_03_2024/img/diagramme_de_gantt_previsionnel.svg "Diagramme de GANTT prévisionnel du sprint du 19-03-2024 au 22-03-2024")
+
+Diagramme de GANTT prévisionnel du sprint du 19-03-2024 au 22-03-2024
+___
+
+![Diagramme de GANTT effectif du sprint du 19-03-2024 au 22-03-2024](../../gestion_de_projet/retroplanning/5_sprint_du_19-03-2024_au_22_03_2024/img/diagramme_de_gantt_effectif.svg "Diagramme de GANTT effectif du sprint du 19-03-2024 au 22-03-2024")
+
+Diagramme de GANTT effectif du sprint du 19-03-2024 au 22-03-2024
+____
+
+## Compte rendu des problèmes réglés depuis le dernier sprint
+
+- J'ai presque réussi à faire tout ce que j'avais indiqué dans mon diagramme de GANTT prévisionnel (planifié en début de sprint)
+- J'ai bien avancé sur la partie frontend de mon application (fidèlement à mon prototype)
+- J'ai fait des commits plus régulièrement (à chaque fois que je produis du code fonctionnel)
+
+
+## Compte rendu des problèmes rencontrés
+- J'étais absent le lundi 18/03/2024 (en raison notamment d'un entretien d'embauche le matin), ce qui m'a fait prendre du retard par rapport à l'avancement du projet
+- Les tickets définis sur mon tableau KANBAN n'étaient pas assez précis
+- J'ai trouvé que les composants générés par Shadcn étaient souvent compliqués à comprendre et donc à adapter (surtout pour changer leur style)
+- J'ai passé beaucoup de temps à régler des problèmes de style
+
+
+## Déductions pour la suite du projet
+
+- Indiquer une condition d'arrêt précise pour chacun des tickets définis sur mon tableau KANBAN
+- Faire des composants manuellement pour les éléments simples à concevoir et n'utiliser une bibliothèque React uniquement pour créer les composants plus complexes (menus déroulants, carrousels, etc.)
+- Se concentrer davantage sur les scénarios utilisateurs essentiels au fonctionnement de l'application (réserver l'ajout du style et du vrai texte ultérieurement)
 
 
 ___
@@ -524,12 +627,6 @@ ___
 Le mot "Inhérit" signifie que l'étape est obligatoire ; cette étape indique aussi le parcours suivi par l'utilisateur du début à la fin du scénario (cette étape peut être complété par plusieurs autres étapes obligatoires ou non).
 
 Le mot "Include" signifie que l'étape est obligatoire pour assurer la validité du scénario tandis que le mot "Extend" signifie que c'est une étape facultative (mais fortement recommendée).
-
-___
-
-### Gestion de projet (Diagramme de Gantt et ou Kanban)
-
-__On colle et on explique le prévisionnel et comment on a prévu de gérer le projet dans le cas idéal prévu en début de projet__
 
 ___
 
