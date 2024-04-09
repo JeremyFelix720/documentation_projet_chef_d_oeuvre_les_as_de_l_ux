@@ -41,6 +41,10 @@ https://www.figma.com/file/S4lRTYNCTgwRv9T1Bp9Eyf/projet_les_as_de_l_ux?type=des
 https://www.canva.com/design/DAFydJfc6KY/wtWpK871Y6JPplNHOdgnPA/edit
 
 
+## Architecture de l'application :
+https://gitmind.com/app/docs/fyovhdf2
+
+
 ## Palette et contrastes colorimétriques :
 https://www.canva.com/design/DAFxsigzSNg/s04Lj_O0o5frTKxTpql9Bw/edit
 

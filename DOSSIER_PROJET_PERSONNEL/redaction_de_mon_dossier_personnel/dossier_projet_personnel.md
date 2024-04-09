@@ -210,11 +210,8 @@ Une fiche personna est un document qui fait partie de la stratégie marketing et
 Les principaux intérêts d'élaborer des fiches persona sont les suivants :
 
 - Améliorer le taux de conversion
-
 - Optimiser l'expérience utilisateur
-
 - Cibler le contenu du site et des publicités
-
 - Etc.
 
 
@@ -600,7 +597,6 @@ Lorsque il y a une relation "many to many" entre 2 tables (c'est-à-dire, quand 
 ### Use cases
 
 Un use case est un schéma qui représente un ensemble d’actions du produit apportant de la valeur par leurs interactions avec les utilisateurs.
-
 
 Voici les différents uses cases de mon projet qui correspondent aux scénarios principaux se produisant au sein de l'application : 
 
