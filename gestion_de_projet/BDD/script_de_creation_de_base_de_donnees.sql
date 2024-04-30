@@ -1,99 +1,101 @@
-CREATE TABLE "USER" (
-  "id" integer,
-  "pseudonym" string,
-  "email" string,
-  "phone_number" string,
-  "city" string,
-  "postal_code" number,
-  "password" string,
-  "points" number,
-  "grade" string,
-  "rib" string
+CREATE TABLE `USER` (
+  `id` integer,
+  `pseudonym` string,
+  `email` string,
+  `phoneNumber` string,
+  `city` string,
+  `postalCode` number,
+  `password` string,
+  `points` number,
+  `grade` string,
+  `rib` string
 );
 
-CREATE TABLE "PROJECT" (
-  "id" integer,
-  "user_id" integer,
-  "title" string,
-  "banner_url" string,
-  "website_url" string,
-  "description" string,
-  "budget" number,
-  "comments" number,
-  "maximum_comments" number
+CREATE TABLE `PROJECT` (
+  `id` integer,
+  `userId` integer,
+  `title` string,
+  `bannerUrl` string,
+  `websiteUrl` string,
+  `description` string,
+  `budget` number,
+  `comments` number,
+  `maximumComments` number
 );
 
-CREATE TABLE "SCENARIO" (
-  "id" integer,
-  "project_id" integer,
-  "comment_id" integer,
-  "title" string
+CREATE TABLE `SCENARIO` (
+  `id` integer,
+  `projectId` integer,
+  `commentId` integer,
+  `title` string
 );
 
-CREATE TABLE "PAGE" (
-  "id" integer,
-  "project_id" integer,
-  "comment_id" integer,
-  "title" string,
-  "url" string
+CREATE TABLE `PAGE` (
+  `id` integer,
+  `projectId` integer,
+  `commentId` integer,
+  `title` string,
+  `url` string
 );
 
-CREATE TABLE "MEMO_SHEET" (
-  "id" integer,
-  "plan_url" string,
-  "title" string,
-  "observation" string,
-  "utility" string,
-  "advice" string,
-  "state" bolean
+CREATE TABLE `MEMO_SHEET` (
+  `id` integer,
+  `planUrl` string,
+  `title` string,
+  `observation` string,
+  `utility` string,
+  `advice` string,
+  `state` bolean
 );
 
-CREATE TABLE "FAVORITE" (
-  "user_id" integer,
-  "project_id" number
+CREATE TABLE `FAVORITE` (
+  `userId` integer,
+  `projectId` number
 );
 
-CREATE TABLE "COMMENT" (
-  "id" integer,
-  "user_id" integer,
-  "project_id" number,
-  "content" string,
-  "rank" number,
-  "submit_date" date
+CREATE TABLE `COMMENT` (
+  `id` integer,
+  `userId` integer,
+  `projectId` number,
+  `content` string,
+  `likedScenarios` string,
+  `likedPages` string,
+  `rank` number,
+  `submitDate` date
 );
 
-CREATE TABLE "SCENARIO_HAS_PAGE" (
-  "scenario_id" integer,
-  "page_id" integer
+CREATE TABLE `SCENARIO_HAS_PAGE` (
+  `scenarioId` integer,
+  `pageId` integer
 );
 
-CREATE TABLE "USER_HAS_MEMO_SHEET" (
-  "user_id" integer,
-  "memo_sheet_id" integer
+CREATE TABLE `USER_HAS_MEMO_SHEET` (
+  `userId` integer,
+  `memoSheetId` integer
 );
 
-ALTER TABLE "PROJECT" ADD FOREIGN KEY ("user_id") REFERENCES "USER" ("id");
+ALTER TABLE `PROJECT` ADD FOREIGN KEY (`userId`) REFERENCES `USER` (`id`);
 
-ALTER TABLE "SCENARIO" ADD FOREIGN KEY ("project_id") REFERENCES "PROJECT" ("id");
+ALTER TABLE `SCENARIO` ADD FOREIGN KEY (`projectId`) REFERENCES `PROJECT` (`id`);
 
-ALTER TABLE "PAGE" ADD FOREIGN KEY ("project_id") REFERENCES "PROJECT" ("id");
+ALTER TABLE `PAGE` ADD FOREIGN KEY (`projectId`) REFERENCES `PROJECT` (`id`);
 
-ALTER TABLE "SCENARIO" ADD FOREIGN KEY ("project_id") REFERENCES "COMMENT" ("id");
+ALTER TABLE `SCENARIO` ADD FOREIGN KEY (`projectId`) REFERENCES `COMMENT` (`id`);
 
-ALTER TABLE "PAGE" ADD FOREIGN KEY ("project_id") REFERENCES "COMMENT" ("id");
+ALTER TABLE `PAGE` ADD FOREIGN KEY (`projectId`) REFERENCES `COMMENT` (`id`);
 
-ALTER TABLE "SCENARIO_HAS_PAGE" ADD FOREIGN KEY ("scenario_id") REFERENCES "SCENARIO" ("id");
+ALTER TABLE `SCENARIO_HAS_PAGE` ADD FOREIGN KEY (`scenarioId`) REFERENCES `SCENARIO` (`id`);
 
-ALTER TABLE "SCENARIO_HAS_PAGE" ADD FOREIGN KEY ("page_id") REFERENCES "PAGE" ("id");
+ALTER TABLE `SCENARIO_HAS_PAGE` ADD FOREIGN KEY (`pageId`) REFERENCES `PAGE` (`id`);
 
-ALTER TABLE "FAVORITE" ADD FOREIGN KEY ("user_id") REFERENCES "USER" ("id");
+ALTER TABLE `FAVORITE` ADD FOREIGN KEY (`userId`) REFERENCES `USER` (`id`);
 
-ALTER TABLE "FAVORITE" ADD FOREIGN KEY ("project_id") REFERENCES "PROJECT" ("id");
+ALTER TABLE `FAVORITE` ADD FOREIGN KEY (`projectId`) REFERENCES `PROJECT` (`id`);
 
-ALTER TABLE "COMMENT" ADD FOREIGN KEY ("user_id") REFERENCES "USER" ("id");
+ALTER TABLE `COMMENT` ADD FOREIGN KEY (`userId`) REFERENCES `USER` (`id`);
 
-ALTER TABLE "COMMENT" ADD FOREIGN KEY ("project_id") REFERENCES "PROJECT" ("id");
+ALTER TABLE `COMMENT` ADD FOREIGN KEY (`projectId`) REFERENCES `PROJECT` (`id`);
 
-ALTER TABLE "USER_HAS_MEMO_SHEET" ADD FOREIGN KEY ("user_id") REFERENCES "USER" ("id");
+ALTER TABLE `USER_HAS_MEMO_SHEET` ADD FOREIGN KEY (`userId`) REFERENCES `USER` (`id`);
 
-ALTER TABLE "USER_HAS_MEMO_SHEET" ADD FOREIGN KEY ("memo_sheet_id") REFERENCES "MEMO_SHEET" ("id");
+ALTER TABLE `USER_HAS_MEMO_SHEET` ADD FOREIGN KEY (`memoSheetId`) REFERENCES `MEMO_SHEET` (`id`);

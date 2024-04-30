@@ -9,59 +9,59 @@ ___
 // RELATION 1, * ("one to many")
 // un utilisateur peut publier 0 ou plusieurs projet(s).
 // un projet peut être publié par 1 et 1 seul utilisateur.
-Ref: USER.id < PROJECT.user_id
+Ref: USER.id < PROJECT.userId
 
 // RELATION 1, * ("one to many")
 // un projet peut avoir 0 ou plusieurs scénario(s).
 // un scénario peut appartenir à 1 et 1 seul projet.
-Ref: PROJECT.id < SCENARIO.project_id
+Ref: PROJECT.id < SCENARIO.projectId
 
 // RELATION 1, * ("one to many")
 // un projet peut avoir 0 ou plusieurs page(s).
 // une page peut appartenir à 1 et 1 seul projet.
-Ref: PROJECT.id < PAGE.project_id
+Ref: PROJECT.id < PAGE.projectId
 
 // RELATION 1, * ("one to many")
 // un commentaire peut avoir 0 ou plusieurs scénario(s).
 // un scénario peut appartenir à 1 et 1 seul commentaire.
-Ref: COMMENT.id < SCENARIO.project_id
+Ref: COMMENT.id < SCENARIO.projectId
 
 // RELATION 1, * ("one to many")
 // un commentaire peut avoir 0 ou plusieurs page(s).
 // une page peut appartenir à 1 et 1 seul commentaire.
-Ref: COMMENT.id < PAGE.project_id
+Ref: COMMENT.id < PAGE.projectId
 
 // RELATION *, * ("many to many")
 // un scénario peut avoir 1 ou plusieurs page(s).
 // une page peut appartenir à 0 ou à plusieurs scénario(s).
-Ref: SCENARIO.id < SCENARIO_HAS_PAGE.scenario_id
-Ref: PAGE.id < SCENARIO_HAS_PAGE.page_id
+Ref: SCENARIO.id < SCENARIO_HAS_PAGE.scenarioId
+Ref: PAGE.id < SCENARIO_HAS_PAGE.pageId
 
 // RELATION *, * ("many to many")
 // un utilisateur peut mettre en favori 0 ou plusieurs projet(s).
 // un projet peut être mis en favori par 0 ou plusieurs utilisateur(s).
-Ref: USER.id < FAVORITE.user_id
-Ref: PROJECT.id < FAVORITE.project_id
+Ref: USER.id < FAVORITE.userId
+Ref: PROJECT.id < FAVORITE.projectId
 
 // RELATION *, * ("many to many")
 // un utilisateur peut commenter 0 ou plusieurs projet(s).
 // un projet peut être commenté par 0 ou plusieurs utilisateur(s).
-Ref: USER.id < COMMENT.user_id
-Ref: PROJECT.id < COMMENT.project_id
+Ref: USER.id < COMMENT.userId
+Ref: PROJECT.id < COMMENT.projectId
 
 // RELATION *, * ("many to many")
 // un utilisateur peut avoir 0 ou plusieurs fiche(s) mémo.
 // une fiche mémo peut appartenir à 0 ou à plusieurs utilisateur(s).
-Ref: USER.id < USER_HAS_MEMO_SHEET.user_id
-Ref: MEMO_SHEET.id < USER_HAS_MEMO_SHEET.memo_sheet_id
+Ref: USER.id < USER_HAS_MEMO_SHEET.userId
+Ref: MEMO_SHEET.id < USER_HAS_MEMO_SHEET.memoSheetId
 
 Table USER {
     id integer
     pseudonym string
     email string
-    phone_number string
+    phoneNumber string
     city string
-    postal_code number
+    postalCode number
     password string
     points number
     grade string
@@ -70,34 +70,34 @@ Table USER {
 
 Table PROJECT {
   id integer
-  user_id integer
+  userId integer
   title string
-  banner_url string
-  website_url string
+  bannerUrl string
+  websiteUrl string
   description string
   budget number
   comments number
-  maximum_comments number
+  maximumComments number
 }
 
 Table SCENARIO {
   id integer
-  project_id integer
-  comment_id integer
+  projectId integer
+  commentId integer
   title string
 }
 
 Table PAGE {
   id integer
-  project_id integer
-  comment_id integer
+  projectId integer
+  commentId integer
   title string
   url string
 }
 
 Table MEMO_SHEET {
   id integer
-  plan_url string
+  planUrl string
   title string
   observation string
   utility string
@@ -107,28 +107,30 @@ Table MEMO_SHEET {
 
 // Table de liaison entre les tables USER et PROJECT 
 Table FAVORITE {
-  user_id integer
-  project_id number
+  userId integer
+  projectId number
 }
 
 // Table de liaison entre les tables USER et PROJECT 
 Table COMMENT {
   id integer
-  user_id integer
-  project_id number
+  userId integer
+  projectId number
   content string
+  likedScenarios string
+  likedPages string
   rank number
-  submit_date date
+  submitDate date
 }
 
 // Table de liaison entre les tables SCENARIO et PAGE 
 Table SCENARIO_HAS_PAGE {
-  scenario_id integer
-  page_id integer
+  scenarioId integer
+  pageId integer
 }
 
 // Table de liaison entre les tables USER et MEMO_SHEET 
 Table USER_HAS_MEMO_SHEET {
-  user_id integer
-  memo_sheet_id integer
+  userId integer
+  memoSheetId integer
 }
